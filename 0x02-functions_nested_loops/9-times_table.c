@@ -17,6 +17,8 @@ int j = 0;
 for (j = 0; j < 11; j++)
 {
 int prod = i * j;
+int k = 0;
+for (k = 0; k < size
 putchar((char)(prod));
 putchar(',');
 putchar(' ');
