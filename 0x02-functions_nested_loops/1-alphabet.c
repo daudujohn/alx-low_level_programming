@@ -12,6 +12,6 @@ for(i = 97; i < 123;  i++){
 char c = i;
 _putchar(c);
 }
-_putchar("\n");
+_putchar('\n');
 return (0);
 }
