@@ -8,8 +8,10 @@
 int main(void)
 {
 int i;
-for(i = 97; i < 123;  i++)
-	_putchar("%c ", i);
+for(i = 97; i < 123;  i++){
+char c = i;
+_putchar(c);
+}
 _putchar("\n");
 return (0);
 }
