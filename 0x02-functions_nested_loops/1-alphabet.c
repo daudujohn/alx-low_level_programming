@@ -1,17 +1,18 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_alphabet - check the code.
  *
- * Return: Always 0.
+ * Return: Void
  */
-int main(void)
+void print_alphabet(void)
 {
 int i;
-for(i = 97; i < 123;  i++){
+for (i = 97; i < 123;  i++)
+{
 char c = i;
 _putchar(c);
 }
 _putchar('\n');
-return (0);
 }
