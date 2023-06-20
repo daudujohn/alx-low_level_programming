@@ -3,7 +3,7 @@
 /**
  * _islower - checks if a character is in lowercase
  *
- * @param c The character to check.
+ * @c The character to check.
  * Return: 1 if the character is lowercase, 0 otherwise.
  *
  * This function checks whether a character is lowercase.
