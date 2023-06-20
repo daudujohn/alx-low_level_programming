@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
-int main() {
-  char str[] = "_putchar";
-  int i;
+int main(void)
+{
+char str[] = "_putchar";
+int i;
 
-  for (i = 0; i < (int)(sizeof(str) - 1); i++) {
-    _putchar(str[i]);
-  }
+for (i = 0; i < (int)(sizeof(str) - 1); i++)
+	_putchar(str[i]);
 
-  _putchar('\n');
+_putchar('\n');
 
-  return (0);
+return (0);
 }
