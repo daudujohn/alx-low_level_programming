@@ -5,7 +5,7 @@ int main() {
   char str[] = "_putchar";
   int i;
 
-  for (i = 0; i < sizeof(str) - 1; i++) {
+  for (i = 0; i < (int)(sizeof(str) - 1); i++) {
     _putchar(str[i]);
   }
 
