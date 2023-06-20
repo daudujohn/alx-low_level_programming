@@ -2,8 +2,9 @@
 #include "main.h"
 /**
  * add - adds two integers
- *
- * Return: Always 0.
+ * @a: first integer
+ * @b: second integer
+ * Return: Always a + b.
  */
 
 int add(int a, int b)
