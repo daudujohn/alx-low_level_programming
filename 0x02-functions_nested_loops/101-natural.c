@@ -18,6 +18,6 @@ if((i % 3) == 0 || (i % 5) == 0)
 sum = sum + i;
 }
 }
-print("%d", sum);
+printf("%d", sum);
 return sum;
 }
