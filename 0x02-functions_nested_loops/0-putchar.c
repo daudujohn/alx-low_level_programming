@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "_putchar"
+#include "main.h"
 
 int main() {
   char str[] = "_putchar";
