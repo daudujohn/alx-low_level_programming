@@ -15,7 +15,8 @@ if (i == 2 || i == 4)
 {
 continue;
 }
-_putchar((char)(i));
+char c = i;
+_putchar(c);
 }
-putchar("\n");
+_putchar('\n');
 }
