@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _isupper - see code
  * @c: letter to be checked
  * Return: if upper 1, else 0
