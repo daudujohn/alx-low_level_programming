@@ -9,8 +9,8 @@
 
 void print_rev(char *s)
 {
-int i = (sizeof(s) / sizeof(int)) - 1;
-while(i >= 0)
+int i = sizeof(s) - 1;
+while (i >= 0)
 {
 _putchar(s[i]);
 i--;
