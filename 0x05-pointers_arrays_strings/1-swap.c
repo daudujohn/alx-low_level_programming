@@ -14,5 +14,4 @@ int *temp = NULL;
 temp = a;
 a = b;
 b = a;
-free(temp);
 }
