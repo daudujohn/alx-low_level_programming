@@ -15,7 +15,7 @@ if (length % 2 == 1)
 {
 half += 1;
 }
-int i = 0;
+int i;
 for (i = half; i < length; i++)
 {
 _putchar(str[i]);
