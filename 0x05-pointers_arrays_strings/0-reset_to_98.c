@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - check the code 
+ * reset_to_98 - check the code
  * @n: integer to be reset
  * Return: void.
  */
