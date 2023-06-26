@@ -19,5 +19,5 @@ while (*src != '\0')
 
 *p = '\0';
 
-return dest;
+return (dest);
 }
