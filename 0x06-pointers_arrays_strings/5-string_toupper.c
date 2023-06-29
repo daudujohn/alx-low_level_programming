@@ -12,7 +12,7 @@ int i;
 i = 0;
 while(s[i] != '\0')
 {
-s[i] = *s[i] - 32;
+s[i] = s[i] - 32;
 }
 return (s);
 }
