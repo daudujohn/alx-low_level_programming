@@ -3,8 +3,8 @@
 
 /**
  * _strcat - check the code
- * @*dest: destination string
- * @*src: source string
+ * @dest: destination string
+ * @src: source string
  * 
  * Return: a pointer to the resulting string dest
  */
