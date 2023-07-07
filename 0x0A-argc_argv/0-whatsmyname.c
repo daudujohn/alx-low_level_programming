@@ -6,7 +6,7 @@ using namespace std;
  * print_program_name - prints the name of a program
  * 
  * @argc: number of parameters
- * @argv: pointer of array of pointers
+ * @argv: pointer to an array of pointers
  * Returns: void
  * /
  
