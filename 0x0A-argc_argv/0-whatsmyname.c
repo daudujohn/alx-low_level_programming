@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <main.h>
-
-using namespace std;
 /*
- * print_program_name - prints the name of a program
+ * main - prints the name of a program
  * 
  * @argc: number of parameters
  * @argv: pointer to an array of pointers
- * Returns: void
+ * Return: 0
  * /
  
-int print_program_name(int argc, char **argv)
+int main(int argc, char **argv)
 {
 if (argc > 0)
 {
