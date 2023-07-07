@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+ * main - see code
+ *
+ * @argc: number of parameters
+ * @argv: Pointer of array of pointers
+ * Return: 0
+ */
+int main(int argc, char **argv)
+{
+print("%i\n", argc - 1);
+return (0);
+}
