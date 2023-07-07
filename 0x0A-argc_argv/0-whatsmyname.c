@@ -4,11 +4,17 @@
 using namespace std;
 /*
  * print_program_name - prints the name of a program
- *
+ * 
+ * @argc: number of parameters
+ * @argv: pointer of array of pointers
  * Returns: void
  * /
  
-void print_program_name(void)
+int print_program_name(int argc, char **argv)
 {
-cout << argv[0] << endl;
+if (argc > 0)
+{
+printf("%s\n", argv[0]);
+}
+return (0);
 }
