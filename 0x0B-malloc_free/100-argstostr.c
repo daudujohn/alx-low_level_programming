@@ -16,6 +16,7 @@ char *new_str;
 int index;
 int i;
 int j;
+int length;
 if (ac == 0 || av == NULL)
 {
 return (NULL);
