@@ -14,6 +14,8 @@ char *argstostr(int ac, char **av)
 int total_length;
 char *new_str;
 int index;
+int i;
+int j;
 if (ac == 0 || av == NULL)
 {
 return (NULL);
@@ -30,10 +32,10 @@ if (new_str == NULL)
 return (NULL);
 }
 index = 0;
-for (int i = 0; i < ac; i++)
+for (i = 0; i < ac; i++)
 {
 length = strlen(av[i]);
-for (int j = 0; j < length; j++)
+for (j = 0; j < length; j++)
 {
 new_str[index++] = av[i][j];
 }
