@@ -12,13 +12,12 @@
 char *argstostr(int ac, char **av)
 {
 int total_length;
-int *new_str;
-int i;
+char *new_str;
+int index;
 if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
-
 total_length = 1;
 for (i = 0; i < ac; i++)
 {
@@ -30,11 +29,17 @@ if (new_str == NULL)
 {
 return (NULL);
 }
-new_str[0] = '\0';
-for (i = 0; i < ac; i++)
+index = 0;
+for (int i = 0; i < ac; i++)
 {
-strcat(new_str, av[i]);
-strcat(new_str, "\n");
+length = strlen(av[i]);
+for (int j = 0; j < length; j++)
+{
+new_str[index++] = av[i][j];
 }
+new_str[index++] = '\n';
+}
+
+new_str[index] = '\0';
 return (new_str);
 }
