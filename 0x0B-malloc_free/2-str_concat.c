@@ -6,11 +6,11 @@
  * str_concat - see code
  * @s1: first string
  * @s2: second string
- * 
  * Return: char
  */
 
-char *str_concat(char *s1, char *s2) {
+char *str_concat(char *s1, char *s2)
+{
 int i;
 int length1;
 int length2;
@@ -29,7 +29,7 @@ length1 = strlen(s1);
 length2 = strlen(s2);
 total_length = length1 + length2 + 1;
 
-new_str = malloc(total_length * sizeof(char));
+new_str = malloc(total_length *sizeof(char));
 if (new_str == NULL)
 {
 return (NULL);
