@@ -11,8 +11,9 @@
 char *_strdup(char *str) {
 int length;
 char *new_str;
+int i;
 length = 1;
-while(str != '\n')
+while(*str != '\n')
 {
 length++;
 }
@@ -25,7 +26,7 @@ if (new_str == NULL)
 {
 return (NULL);
 }
-for (int i = 0; i < length; i++) {
+for (i = 0; i < length; i++) {
 new_str[i] = str[i];
 }
 return (new_str);
