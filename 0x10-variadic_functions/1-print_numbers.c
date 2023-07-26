@@ -28,11 +28,14 @@ else
 {
 printf("NULL");
 }
-if (separator != NULL && i < n - 1)
+if (separator != NULL)
+{
+if (i < (n - 1))
 {
 printf("%s", separator);
 }
 }
-printf("\n");
+}
+
 va_end(args);
 }
