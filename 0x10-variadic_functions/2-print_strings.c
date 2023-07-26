@@ -1,16 +1,16 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-/**
- * print_numbers - prints numbers followed by a new line
- * @separator: String to be printed between numbers
- * @n: number of variadic arguments
- * @...: Arguments Variadic
+
+ /**
+ * print_strings - see code
  *
- * Return: No return
+ * @separator: first parameter
+ * @n: number of parameters
  */
 
-void print_strings(const char *separator, const unsigned int n, ...) {
+void print_strings(const char *separator, const unsigned int n, ...)
+{
 unsigned int i;
 va_list args;
 
