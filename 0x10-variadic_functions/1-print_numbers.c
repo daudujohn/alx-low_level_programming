@@ -27,7 +27,7 @@ printf("%s", str);
 }
 else
 {
-printf("NULL");
+printf("(nill)");
 }
 if (separator != NULL)
 {
