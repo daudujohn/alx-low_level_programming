@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+
 /**
  * print_numbers - see code
  * @separator: String to be separate numbers
@@ -22,7 +23,7 @@ char *str = va_arg(args, char *);
 
 if (str)
 {
-printf("%s", str)
+printf("%s", str);
 }
 else
 {
@@ -36,6 +37,7 @@ printf("%s", separator);
 }
 }
 }
-
+printf("\n");
 va_end(args);
 }
+
