@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prime - see code 
+ * prime2 - see code
  * @a: same number as n
  * @b: number that iterates from 1 to n
  *
