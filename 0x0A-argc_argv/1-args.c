@@ -11,12 +11,7 @@
 int main(int argc, char *argv[])
 {
 int i;
-int sum;
-for (i = 0; i < argc; i++)
-{
-sum++;
-}
-printf("%s", sum);
+printf("%d", argc);
 printf("\n");
 }
 
